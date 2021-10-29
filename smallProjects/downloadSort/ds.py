@@ -65,5 +65,6 @@ for file in os.listdir(folder_to_sort):
         file_path = os.path.join(folder_to_sort, file)
         move_file_to(file_path, os.path.join(folder_to_sort, TO_JAR))
 		
-
+if __name__ == '__main__':
+    main()
 
